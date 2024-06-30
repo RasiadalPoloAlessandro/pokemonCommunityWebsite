@@ -1,0 +1,21 @@
+[
+    {
+        "username": "polo",
+        "password": "1234"
+    },
+    {
+        "username": "general",
+        "password": "1234",
+        "email": "user1@gmail.com"
+    },
+    {
+        "username": "Za_Cringe94",
+        "password": "12",
+        "email": "user1@gmail.com"
+    },
+    {
+        "username": "IlSindaco",
+        "password": "123",
+        "email": "user2@gmail.com"
+    }
+]

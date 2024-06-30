@@ -1,0 +1,122 @@
+
+
+body{
+    background: url("../images/backgroundSV.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+body,header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.userBadge{
+    display: block;
+    padding: 20px;
+    margin-top: 250px;
+    border-radius: 25px;
+    width: 700px;
+    border: 1px solid black;
+    background: white;
+    clear: both;
+
+}
+.imgBadge{
+    width: 120px;
+}
+
+.teamDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 25px;
+    border: 1px solid green;
+    flex-wrap: wrap;
+
+
+}
+
+#bodyPage {
+    display: flex; /* Imposta il layout flessibile */
+    flex-direction: column;
+    align-items: center; /* Centra gli elementi lungo l'asse trasversale (verticale) */
+    justify-content: center; /* Centra gli elementi lungo l'asse principale (orizzontale) */
+}
+
+.pokemonDescription{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: calc(33% - 20px);
+
+}
+
+.description {
+    display: flex;
+    margin-left: 10px; /* Aggiungi spazio tra l'immagine e il paragrafo */
+}
+
+.pokemonAnimation{
+
+    position: absolute;
+    z-index: 2;
+    opacity: 0; /* Inizialmente invisibile */
+
+}
+@media screen and (max-width: 15.6in) {
+    .pokemonAnimation {
+        width: 30px; /* Larghezza per schermi di dimensioni inferiori a 15.6 pollici */
+    }
+}
+
+@media screen and (min-width: 15.7in) and (max-width: 20in) {
+    .pokemonAnimation {
+        width: 450px; /* Larghezza per schermi compresi tra 15.7 e 20 pollici */
+    }
+}
+
+@media screen and (min-width: 20.1in) {
+    .pokemonAnimation {
+        width: 500px; /* Larghezza per schermi superiori a 20 pollici */
+    }
+}
+
+
+
+
+#imgAnimation1-1{
+    float:right;
+    right: 0;
+    transform: translateX(-100%); /* Posizione iniziale fuori dalla schermata a sinistra */
+    animation: fadeInRight 1s ease-out forwards; /* Animazione con durata di 1 secondo */
+}
+
+@keyframes fadeInRight {
+    to {
+        opacity: 1; /* Opacità finale 1 (completamente visibile) */
+        transform: translateX(0); /* Posizione finale a destra */
+    }
+}
+
+#imgAnimation2-1{
+    float: left;
+    left: 0;
+    transform: translateX(100%); /* Posizione iniziale fuori dalla schermata a sinistra */
+    animation: fadeInLeft 1s ease-out forwards; /* Animazione con durata di 1 secondo */
+}
+
+
+@keyframes fadeInLeft {
+    to {
+        opacity: 1; /* Opacità finale 1 (completamente visibile) */
+        transform: translateX(0); /* Posizione finale a destra */
+    }
+}
+
+
+

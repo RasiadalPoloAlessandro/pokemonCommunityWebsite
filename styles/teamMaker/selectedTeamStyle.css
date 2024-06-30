@@ -1,0 +1,142 @@
+#pokemonList{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.divChart{
+    padding: 5px;
+    background: transparent;
+    border: white 2px solid;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    width: 900px;
+    height: 220px;
+    display: flex;
+}
+.imgPokemonDiv{
+    height: 100%;
+    width: 18%;
+
+}
+.pokemonImg{
+    min-width: 110px;
+    width: 100%;
+    max-width: 130px;
+    max-height: 150px;
+}
+.pokemonName{
+    font-size: 10px;
+    width: 100%; height: 30px;
+}
+.abilities-items{
+    text-align: center;
+    width: 40%;
+    height: 100%;
+}
+.moveSet{
+    height: 100%; width: 25%;
+}
+
+.pokemonName{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.divStatistics{
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+.move{
+    margin-top: 10%;
+
+}
+.abilityDiv{
+    margin-top: 10%;
+}
+.itemDiv{
+    margin-top: 10%;
+}
+.statsContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.stats{
+    margin-left: 5px;
+    height: 12px;
+    margin-top: 8.5%;
+    width: 126px;
+}
+
+label{
+    height: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.buttonList{
+    width: 100px;
+    height: 100%;
+    border: none;
+}
+
+.move .pokemonName .abiliyInput .itemInput{
+    box-shadow: inset 0 1px 2px #ccc, 1px 1px 0 rgba(255,255,255,.6);
+}
+
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-image: initial;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+.types{
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+.typeImage{
+    width: 50px;
+}
+#teamName{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#teamNameTxt{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#labelTeamName{
+    font-size: 25px;
+}
+
+
+
